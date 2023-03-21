@@ -5,11 +5,11 @@ name: eShopOnWeb Build and Test
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
-  RESOURCE-GROUP: rg-az400-eshoponweb-NAME
-  LOCATION: westeurope
-  TEMPLATE-FILE: .azure/bicep/webapp.bicep
-  SUBSCRIPTION-ID: YOUR-SUBS-ID
-  WEBAPP-NAME: az400-webapp-NAME
+  RESOURCE-GROUP: rg-az400-eshoponweb-DARE
+  LOCATION: eastus
+  TEMPLATE-FILE: .azure/bicep/webap.bicep
+  SUBSCRIPTION-ID: 93a41b1f-ec8d-45a1-8629-c34915fe0ef5
+  WEBAPP-NAME: free2talk-call
 
 
 jobs:
